@@ -46,7 +46,7 @@ header div img{
 }
 
 main{
-    max-width: 580px;
+    max-width: 360px;
     width: 90%;
     margin: 32px auto;
     display: grid;
@@ -92,12 +92,12 @@ section ul li:hover{
 }
 
 .game-list img{
-    width: 90px;
+    width: 80px;
     border-radius: 8px;
 }
 
 .channel-list img{
-    width: 70px;
+    width: 60px;
     border-radius: 50%;
     border: 1px solid #443E54;
 }
@@ -144,4 +144,20 @@ main section:nth-child(3){
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* Swiper */
+
+section{
+    overflow: hidden;
+}
+
+.game-list{
+    flex-wrap: nowrap;
+    gap: 0;
+}
+
+.channel-list{
+    flex-wrap: nowrap;
+    gap: 0;
 }
